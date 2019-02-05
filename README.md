@@ -5,7 +5,7 @@ Step 1:
 Create a folder containing all the files you would like to chnage the name of, the Python file, and a file called IDs.csv
 
 Step 2: 
-Enter all the new file names into IDs.csv in the first column
+Enter all the new file names into IDs.csv in the first column (Note: file names are sorted alphabetically so the additions should be added to the .csv file in the same order as the sorted file list) 
 
 Step 3: 
 Change the file extension and date within renamer.py
