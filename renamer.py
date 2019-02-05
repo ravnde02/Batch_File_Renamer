@@ -9,7 +9,7 @@ import os
 current_file_names = sorted(glob.glob('*.tiff'))
 
 # Set the date which the pictures were taken
-date_taken = '2019_10_19'
+date_taken = '2018_10_19'
 
 # Change 'IDs.csv' to the name of file containing the new file names
 with open('IDs.csv', 'r') as f:
@@ -40,8 +40,8 @@ for i in new_file_names:
 
 # Join the current file names and the new file names into one list
 names_list = zip(current_file_names, new_name)
-#for item in names_list:
-    #print(item)
+for item in names_list:
+    print(item)
 
 # Rename the files
 for item in names_list:
